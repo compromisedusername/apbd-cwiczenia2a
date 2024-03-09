@@ -5,3 +5,20 @@ Console.WriteLine("Hello, World2!");
 Console.WriteLine("Hello, World3!");
 Console.WriteLine("Hello, World4!");
 Console.WriteLine("HotFix!");
+
+int[] numbers = { 1, 2, 3, 4, 5 };
+Console.WriteLine(GetAverage(numbers));
+double avg = GetAverage([
+    1,2,3,4,5
+]);
+
+static double GetAverage(int[] numbers)
+{
+    int sum = 0;
+    foreach (var number in numbers)
+    {
+        sum += number;
+    }
+
+    return sum / numbers.Length;
+}
