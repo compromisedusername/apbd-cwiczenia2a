@@ -11,7 +11,7 @@ double avg = GetAverage([
     1,2,3,4,5
 ]);
 
-double GetAverage(int[] numbers)
+static double GetAverage(int[] numbers)
 {
     int sum = 0;
     foreach (var number in numbers)
