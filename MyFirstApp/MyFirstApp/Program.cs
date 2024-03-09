@@ -12,6 +12,11 @@ double avg = GetAverage([
     1,2,3,4,5
 ]);
 
+
+Console.WriteLine(GetAverage(numbers));
+
+
+
 static double GetAverage(int[] numbers)
 {
     int sum = 0;
