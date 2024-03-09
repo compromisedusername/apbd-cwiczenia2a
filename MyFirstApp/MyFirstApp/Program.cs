@@ -21,13 +21,13 @@ double max = GetAverage([
 
 static double GetAverage(int[] numbers)
 {
-    int sum = 0;
+    int ThoSum = 0;
     foreach (var number in numbers)
     {
-        sum += number;
+        ThoSum += number;
     }
 
-    return sum / numbers.Length;
+    return ThoSum / numbers.Length;
 }
 
 static double GetMax(int[] numbers)
