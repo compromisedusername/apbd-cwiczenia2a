@@ -5,6 +5,9 @@ Console.WriteLine("Hello, World2!");
 Console.WriteLine("Hello, World3!");
 Console.WriteLine("Hello, World4!");
 
+int[] numbers = { 1, 2, 3, 4, 5 };
+Console.WriteLine(GetAverage(numbers));
+
 double GetAverage(int[] numbers)
 {
     int sum = 0;
