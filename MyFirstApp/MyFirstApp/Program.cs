@@ -22,3 +22,16 @@ static double GetAverage(int[] numbers)
 
     return sum / numbers.Length;
 }
+
+static double GetMax(int[] numbers)
+{
+    int max = numbers[0];
+
+    for (int i = 1; i < numbers.Length; i++)
+    {
+        if (max < numbers[i])
+            max = numbers[i];
+    }
+    
+    return max;
+}
